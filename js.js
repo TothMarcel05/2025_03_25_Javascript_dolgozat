@@ -1,5 +1,5 @@
 //1. Névköszöntő
-let nev = prompt("Írd be a neved");
+let nev = prompt("Írd be a neved", "Név helye");
 document.getElementById("demo").innerHTML = "Szia " + nev + "! Örülök, hogy itt vagy!";
 
 

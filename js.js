@@ -1,9 +1,7 @@
 //1.
-let person = prompt("Írd be a neved");
-if (person != null) {
-  document.getElementById("demo").innerHTML =
-"Szia " + person + "! Örülök, hogy itt vagy!";
-} 
+let nev = prompt("Írd be a neved");
+document.getElementById("demo").innerHTML = "Szia " + nev + "! Örülök, hogy itt vagy!";
+
 
 //2.
 let a = Math.random(1, 10);

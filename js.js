@@ -1,6 +1,6 @@
 //1. Névköszöntő
-let nev = prompt("Írd be a neved", "Név helye");
-document.getElementById("demo").innerHTML = "Szia " + nev + "! Örülök, hogy itt vagy!";
+let nev = prompt("Írd be a neved", "név helye");
+document.getElementById("szoveg1").innerHTML = "Szia " + nev + "! Örülök, hogy itt vagy!";
 
 
 //2. Véletlenszám-generálás
